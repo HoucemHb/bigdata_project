@@ -1,0 +1,114 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "StockData",
+            "request": "launch",
+            "mainClass": "org.apache.hadoop.examples.StockData",
+            "projectName": "boursejava",
+            "args": [
+                "src/main/resources/input/histo_cotation_2020.txt",
+                "src/main/resources/input/histo_cotation_2021.txt",
+                "src/main/resources/input/histo_cotation_2022.txt",
+                "src/main/resources/input/histo_cotation_2023.txt",
+                "src/main/resources/output_variance"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "StockMoyenne",
+            "request": "launch",
+            "mainClass": "org.apache.hadoop.examples.StockMoyenne",
+            "projectName": "boursejava",
+            "args": [
+                "src/main/resources/input/histo_cotation_2020.txt",
+                "src/main/resources/input/histo_cotation_2021.txt",
+                "src/main/resources/input/histo_cotation_2022.txt",
+                "src/main/resources/input/histo_cotation_2023.txt",
+                "src/main/resources/output_moyenne"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "BetaData",
+            "request": "launch",
+            "mainClass": "org.apache.hadoop.examples.BetaData",
+            "projectName": "boursejava",
+            "args": [
+                "src/main/resources/input/histo_cotation_2020.txt",
+                "src/main/resources/input/histo_cotation_2021.txt",
+                "src/main/resources/input/histo_cotation_2022.txt",
+                "src/main/resources/input/histo_cotation_2023.txt",
+                "src/main/resources/output_beta",
+                "11"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Beta",
+            "request": "launch",
+            "mainClass": "org.apache.hadoop.examples.Beta",
+            "projectName": "boursejava",
+            "args": [
+                "src/main/resources/input/histo_cotation_2020.txt",
+                "src/main/resources/input/histo_cotation_2021.txt",
+                "src/main/resources/input/histo_cotation_2022.txt",
+                "src/main/resources/input/histo_cotation_2023.txt",
+                "src/main/resources/output_beta2",
+            ]
+        },
+        {
+            "type": "java",
+            "name": "StockVolatility",
+            "request": "launch",
+            "mainClass": "org.apache.hadoop.examples.StockVolatility",
+            "projectName": "boursejava",
+            "args": [
+                "src/main/resources/input/histo_cotation_2020.txt",
+                "src/main/resources/input/histo_cotation_2021.txt",
+                "src/main/resources/input/histo_cotation_2022.txt",
+                "src/main/resources/input/histo_cotation_2023.txt",
+                "src/main/resources/output_volatility",
+            ]
+        },
+        {
+            "type": "java",
+            "name": "InvestorPerf",
+            "request": "launch",
+            "mainClass": "org.apache.hadoop.examples.InvestorPerformance",
+            "projectName": "boursejava",
+            "args": [
+                "src/main/resources/input/histo_cotation_2020.txt",
+                "src/main/resources/input/histo_cotation_2021.txt",
+                "src/main/resources/input/histo_cotation_2022.txt",
+                "src/main/resources/input/histo_cotation_2023.txt",
+                "src/main/resources/output_investor_perf",
+            ]
+        },
+        {
+            "type": "java",
+            "name": "PerfVol",
+            "request": "launch",
+            "mainClass": "org.apache.hadoop.examples.PerformanceVolatility",
+            "projectName": "boursejava",
+            "args": [
+                "src/main/resources/input/histo_cotation_2020.txt",
+                "src/main/resources/input/histo_cotation_2021.txt",
+                "src/main/resources/input/histo_cotation_2022.txt",
+                "src/main/resources/input/histo_cotation_2023.txt",
+                "src/main/resources/output_performance_volatility",
+            ]
+        }
+
+    ]
+}

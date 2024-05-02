@@ -1,0 +1,3 @@
+org/apache/hadoop/examples/StockData$StockDataReducer.class
+org/apache/hadoop/examples/StockData$StockDataMapper.class
+org/apache/hadoop/examples/StockData.class
